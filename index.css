@@ -1,0 +1,115 @@
+/* reset default */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* base style */
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #e8f0f7;
+}
+
+/* normal style */
+
+header {
+    position:fixed;
+    background-color: rgb(19, 22, 26);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    min-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+    width: 100%;
+}
+
+.header-content {
+
+}
+
+.logo {
+color: #e8f0f7;
+font-size: 25px;
+display: block;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+.nav-list {
+    display: flex;
+    column-gap: 40px;
+
+}
+
+.nav-link {
+    color: rgb(225, 255, 255, 0.75);
+    font-size: 15px;
+    transition: all 0.2s;
+}
+
+.active {
+    color: rgb(225, 255, 255, 1);
+}
+
+.nav-link:hover {
+    color: rgb(225, 255, 255, 1);
+}
+
+
+
+.main {
+    min-width: 1200px;
+    margin: 0 auto;
+    /* padding: 0 30px; */
+}
+
+
+.section {
+    height: 100vh;
+    display: flex;justify-content: center;
+    align-items: center;
+    font-size: 150px;
+   
+}
+
+.section:nth-child(1) {
+    background: rgb(185, 136, 150);
+}
+
+.section:nth-child(2) {
+    background: rgb(192, 85, 10);
+}
+
+.section:nth-child(3) {
+    background: rgb(192, 110, 150);
+}
+
+.section:nth-child(4) {
+    background: rgb(192, 200, 225);
+}
+
+.section:nth-child(5) {
+    background: rgb(192, 136, 150);
+}
+
+.section:nth-child(6) {
+    background: rgb(19, 136, 150);
+}
